@@ -23,3 +23,21 @@ if (nomepeca.length > 3){
 }else{
     console.log("Nome deve ter mais de 3 caracteres, digite um nome adequado")
 } 
+
+
+
+switch (nomepeca.length) {
+    case 0:
+        console.log("O nome da peça não pode ser vazio")
+
+        break;
+
+    case 1:
+    case 2:
+    case 3:
+        console.log("Nome deve ter mais de 3 caracteres, digite um nome adequado")        
+
+    default:
+        console.log("Nome de peça está adequado para o cadastro!")
+        break;
+}

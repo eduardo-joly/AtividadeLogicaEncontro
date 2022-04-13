@@ -18,6 +18,8 @@ if (peso,100){
 let nomepecas = "Disco de Freio"
 if (nomepecas.length > 3){
     console.log("Nome de peça está adequado para o cadastro!")
+}else if (nomepecas.length == 0){
+    console.log("O nome da peça não pode ser vazio")
 }else{
     console.log("Nome deve ter mais de 3 caracteres, digite um nome adequado")
 } 
